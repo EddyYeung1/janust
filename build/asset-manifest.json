@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/janust/static/js/main.4e25327c.chunk.js",
+    "main.js.map": "/janust/static/js/main.4e25327c.chunk.js.map",
+    "runtime-main.js": "/janust/static/js/runtime-main.16a223e4.js",
+    "runtime-main.js.map": "/janust/static/js/runtime-main.16a223e4.js.map",
+    "static/css/2.e09bffe6.chunk.css": "/janust/static/css/2.e09bffe6.chunk.css",
+    "static/js/2.928f1591.chunk.js": "/janust/static/js/2.928f1591.chunk.js",
+    "static/js/2.928f1591.chunk.js.map": "/janust/static/js/2.928f1591.chunk.js.map",
+    "index.html": "/janust/index.html",
+    "precache-manifest.c23cf04afd7f3bd639b98ee68517823a.js": "/janust/precache-manifest.c23cf04afd7f3bd639b98ee68517823a.js",
+    "service-worker.js": "/janust/service-worker.js",
+    "static/css/2.e09bffe6.chunk.css.map": "/janust/static/css/2.e09bffe6.chunk.css.map",
+    "static/media/bp_tunnel.jpg": "/janust/static/media/bp_tunnel.b6d7357c.jpg",
+    "static/media/all.min.css": "/janust/static/media/fa-solid-900.c2801fb4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16a223e4.js",
+    "static/css/2.e09bffe6.chunk.css",
+    "static/js/2.928f1591.chunk.js",
+    "static/js/main.4e25327c.chunk.js"
+  ]
+}
