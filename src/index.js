@@ -7,10 +7,10 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Landing from "views/Lading.js";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/janust">
     <Switch>
       <Route path="/landing" component={Landing} />
-      <Redirect from="https://eddyyeung1.github.io/janust/" to="/landing" />
+      <Redirect from="/" to="/landing" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
