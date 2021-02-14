@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d3a819d7aecbf79ecfb74fecd58ede1",
+    "revision": "137d7db78f8c1932b25db7b9b3a7d6ac",
     "url": "/janust/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/janust/static/js/2.928f1591.chunk.js"
   },
   {
-    "revision": "8ef09059ab93e8c2d10f",
-    "url": "/janust/static/js/main.4cfc27ed.chunk.js"
+    "revision": "5fbb4fefb532a4c2f09d",
+    "url": "/janust/static/js/main.6f01974c.chunk.js"
   },
   {
     "revision": "ef718f62c293f9dcf936",

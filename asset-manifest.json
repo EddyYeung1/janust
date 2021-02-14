@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/janust/static/js/main.4cfc27ed.chunk.js",
-    "main.js.map": "/janust/static/js/main.4cfc27ed.chunk.js.map",
+    "main.js": "/janust/static/js/main.6f01974c.chunk.js",
+    "main.js.map": "/janust/static/js/main.6f01974c.chunk.js.map",
     "runtime-main.js": "/janust/static/js/runtime-main.16a223e4.js",
     "runtime-main.js.map": "/janust/static/js/runtime-main.16a223e4.js.map",
     "static/css/2.e09bffe6.chunk.css": "/janust/static/css/2.e09bffe6.chunk.css",
     "static/js/2.928f1591.chunk.js": "/janust/static/js/2.928f1591.chunk.js",
     "static/js/2.928f1591.chunk.js.map": "/janust/static/js/2.928f1591.chunk.js.map",
     "index.html": "/janust/index.html",
-    "precache-manifest.2cdb255962eb1d933c12224bdf58bf50.js": "/janust/precache-manifest.2cdb255962eb1d933c12224bdf58bf50.js",
+    "precache-manifest.e23dc43949055cc8ee9a35bc754a7036.js": "/janust/precache-manifest.e23dc43949055cc8ee9a35bc754a7036.js",
     "service-worker.js": "/janust/service-worker.js",
     "static/css/2.e09bffe6.chunk.css.map": "/janust/static/css/2.e09bffe6.chunk.css.map",
     "static/media/bp_tunnel.jpg": "/janust/static/media/bp_tunnel.b6d7357c.jpg",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.16a223e4.js",
     "static/css/2.e09bffe6.chunk.css",
     "static/js/2.928f1591.chunk.js",
-    "static/js/main.4cfc27ed.chunk.js"
+    "static/js/main.6f01974c.chunk.js"
   ]
 }
