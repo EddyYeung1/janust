@@ -1,17 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Landing from "views/Lading.js";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route path="/landing" component={Landing} />
-      <Redirect from="/janust" to="/landing" />
+      <Redirect from="/" to="/landing" />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
