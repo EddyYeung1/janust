@@ -1,0 +1,10 @@
+.carousel {
+  /* any dimensions are fine, it can be responsive with max-width */
+  width: 50%;
+  height: 50%;
+}
+
+.carousel-inner {
+  /* make sure your .items will get correct height */
+  height: 100%;
+}
