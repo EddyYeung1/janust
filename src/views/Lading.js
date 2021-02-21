@@ -2,15 +2,8 @@ import React from "react";
 import Navbar from "components/Navbar.js";
 import Footer from "components/Footer.js";
 import bpTunnel from "../images/bp_tunnel.jpg";
-import image1 from "../images/image1.jpg";
-import image2 from "../images/image2.jpg";
-import image3 from "../images/image3.jpg";
-import image4 from "../images/image4.jpg";
-import image from "../images/image.jpg";
-import amazon_logistics_center from "../images/amazon_logistics_center.jpg";
-import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./carousel.css";
+import CustomCarousel from "../components/CustomCarousel";
 
 export default function Landing() {
   return (
@@ -129,6 +122,43 @@ export default function Landing() {
               </div>
             </div>
           </div>
+
+          <div className="flex justify-center">
+            <h2 className="text-4xl font-semibold text-black">Past Projects</h2>
+          </div>
+
+          <div className="flex justify-center mt-4 pb-16">
+            <CustomCarousel></CustomCarousel>
+          </div>
+        </section>
+
+        <section className="pb-6 relative block bg-gray-900 pt-4">
+          <div
+            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 "
+            style={{ height: "80px", transform: "translateZ(0)" }}
+          >
+            <svg
+              className="absolute bottom-0 overflow-hidden"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              version="1.1"
+              viewBox="0 0 2560 100"
+              x="0"
+              y="0"
+            >
+              <polygon
+                className="text-gray-900 fill-current"
+                points="2560 0 2560 100 0 100"
+              ></polygon>
+            </svg>
+          </div>
+
+          <div className="flex justify-center">
+            <h2 className="text-4xl font-semibold text-white">
+              Services Offered
+            </h2>
+          </div>
+
           <div className="container mx-auto px-4 mt-16">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -183,7 +213,7 @@ export default function Landing() {
                 </div>
               </div>
 
-              <div className="flex justify-center flex-wrap">
+              <div className="flex justify-center flex-wrap ">
                 <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                   <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                     <div className="px-4 py-5 flex-auto">
@@ -191,7 +221,7 @@ export default function Landing() {
                         <i class="fas fa-chart-line"></i>
                       </div>
                       <h6 className="text-xl font-semibold">
-                        Document Control and Reporting
+                        Document Control
                       </h6>
                       <p className="mt-2 mb-4 text-gray-600">
                         We use a computerized database system to control and
@@ -222,9 +252,9 @@ export default function Landing() {
           </div>
         </section>
 
-        <section className="pb-6 relative block bg-gray-900 pt-4">
+        <section className="pb-20 relative block bg-gray-900">
           <div
-            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 "
+            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px", transform: "translateZ(0)" }}
           >
             <svg
@@ -242,48 +272,83 @@ export default function Landing() {
               ></polygon>
             </svg>
           </div>
-          <div className="flex justify-center">
-            <h2 className="text-4xl font-semibold text-white">
-              Some of Our Work!
-            </h2>
-          </div>
 
-          <div className="flex justify-center mt-4 pb-16">
-            <Carousel>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={amazon_logistics_center}
-                  alt="Third slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block w-100" src={image} alt="Third slide" />
-              </Carousel.Item>
-
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={image1}
-                  alt="Second slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block w-100" src={image2} alt="Third slide" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block w-100" src={image3} alt="Third slide" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img className="d-block w-100" src={image4} alt="Third slide" />
-              </Carousel.Item>
-            </Carousel>
-          </div>
-
-          {/* <div className="container mx-auto px-4 lg:pt-24 lg:pb-64"></div> */}
+          <div className="container mx-auto px-4 lg:pt-24 lg:pb-64"></div>
         </section>
 
-        <section className="relative py-20">
+        <section className="block py-24 lg:pt-0 bg-gray-900 mt-1">
+          <div className="container mx-auto px-4">
+            <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+              <div className="w-full lg:w-6/12 px-4">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+                  <div className="flex-auto p-5 lg:p-10">
+                    <h4 className="text-2xl font-semibold">
+                      Want to work with us?
+                    </h4>
+                    <p className="leading-relaxed mt-1 mb-4 text-gray-600">
+                      Complete this form and we will get back to you in 24
+                      hours.
+                    </p>
+                    <div className="relative w-full mb-3 mt-8">
+                      <label
+                        className="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        htmlFor="full-name"
+                      >
+                        Full Name
+                      </label>
+                      <input
+                        type="text"
+                        className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                        placeholder="Full Name"
+                        style={{ transition: "all .15s ease" }}
+                      />
+                    </div>
+
+                    <div className="relative w-full mb-3">
+                      <label
+                        className="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        htmlFor="email"
+                      >
+                        Email
+                      </label>
+                      <input
+                        type="email"
+                        className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                        placeholder="Email"
+                        style={{ transition: "all .15s ease" }}
+                      />
+                    </div>
+
+                    <div className="relative w-full mb-3">
+                      <label
+                        className="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        htmlFor="message"
+                      >
+                        Message
+                      </label>
+                      <textarea
+                        rows="4"
+                        cols="80"
+                        className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                        placeholder="Type a message..."
+                      />
+                    </div>
+                    <div className="text-center mt-6">
+                      <button
+                        className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                        style={{ transition: "all .15s ease" }}
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* <section className="relative py-20">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px", transform: "translateZ(0)" }}
@@ -370,7 +435,7 @@ export default function Landing() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <Footer />
     </>
