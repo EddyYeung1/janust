@@ -2,6 +2,17 @@
   /* any dimensions are fine, it can be responsive with max-width */
   width: 50%;
   height: 50%;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel {
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .carousel-inner {
