@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "components/Navbar.js";
-import Footer from "components/Footer.js";
-import bpTunnel from "../images/bp_tunnel.jpg";
 import hero from "../images/hero.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CustomCarousel from "../components/CustomCarousel";
+import ContactUs from "../components/ContactUs";
+
+//to DO
 
 export default function Landing() {
   return (
@@ -31,7 +32,7 @@ export default function Landing() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
+                <div>
                   <h1 className="text-white font-semibold text-4xl">
                     Your project starts with us.
                   </h1>
@@ -65,7 +66,7 @@ export default function Landing() {
           </div>
         </div>
 
-        <section className="pb-48 bg-gray-300 -mt-1 pt-12">
+        <section className="pb-48 bg-gray-300 -mt-1 pt-12" id="about-us">
           <div className="flex flex-wrap items-center mt-0">
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
@@ -91,7 +92,10 @@ export default function Landing() {
           </div>
         </section>
 
-        <section className="pb-16 relative block bg-gray-900 pt-4">
+        <section
+          className="pb-16 relative block bg-gray-900 pt-4"
+          id="services"
+        >
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 "
             style={{ height: "80px", transform: "translateZ(0)" }}
@@ -163,10 +167,9 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">Cost Estimating</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      We provide estimating Services to Architects and Engineers
-                      on the fast track within limited budgets. Janust
-                      specializes in estimating services for design and
-                      construction projects.
+                      We provide Estimating Services to Architects and Engineers
+                      on the fast track within limited budgets, specializing in
+                      design and construction projects.
                     </p>
                   </div>
                 </div>
@@ -209,73 +212,7 @@ export default function Landing() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center mt-10">
-            <div className="w-full lg:w-6/12 px-4">
-              <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
-                <div className="flex-auto p-5 lg:p-10">
-                  <h4 className="text-2xl font-semibold">
-                    Want to work with us?
-                  </h4>
-                  <p className="leading-relaxed mt-1 mb-4 text-gray-600">
-                    Complete this form and we will get back to you in 24 hours.
-                  </p>
-                  <div className="relative w-full mb-3 mt-8">
-                    <label
-                      className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      htmlFor="full-name"
-                    >
-                      Full Name
-                    </label>
-                    <input
-                      type="text"
-                      className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
-                      placeholder="Full Name"
-                      style={{ transition: "all .15s ease" }}
-                    />
-                  </div>
-
-                  <div className="relative w-full mb-3">
-                    <label
-                      className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      htmlFor="email"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
-                      placeholder="Email"
-                      style={{ transition: "all .15s ease" }}
-                    />
-                  </div>
-
-                  <div className="relative w-full mb-3">
-                    <label
-                      className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      htmlFor="message"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      rows="4"
-                      cols="80"
-                      className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
-                      placeholder="Type a message..."
-                    />
-                  </div>
-                  <div className="text-center mt-6">
-                    <button
-                      className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                      style={{ transition: "all .15s ease" }}
-                    >
-                      Send Message
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ContactUs />
         </section>
       </main>
       {/* <Footer /> */}
