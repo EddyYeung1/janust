@@ -1,23 +1,40 @@
 {
   "files": {
-    "main.js": "/janust/static/js/main.df5847cb.chunk.js",
-    "main.js.map": "/janust/static/js/main.df5847cb.chunk.js.map",
+    "main.css": "/janust/static/css/main.ff473632.chunk.css",
+    "main.js": "/janust/static/js/main.51527db0.chunk.js",
+    "main.js.map": "/janust/static/js/main.51527db0.chunk.js.map",
     "runtime-main.js": "/janust/static/js/runtime-main.16a223e4.js",
     "runtime-main.js.map": "/janust/static/js/runtime-main.16a223e4.js.map",
-    "static/css/2.e09bffe6.chunk.css": "/janust/static/css/2.e09bffe6.chunk.css",
-    "static/js/2.a9e46fc8.chunk.js": "/janust/static/js/2.a9e46fc8.chunk.js",
-    "static/js/2.a9e46fc8.chunk.js.map": "/janust/static/js/2.a9e46fc8.chunk.js.map",
+    "static/css/2.c491e10e.chunk.css": "/janust/static/css/2.c491e10e.chunk.css",
+    "static/js/2.a666d506.chunk.js": "/janust/static/js/2.a666d506.chunk.js",
+    "static/js/2.a666d506.chunk.js.map": "/janust/static/js/2.a666d506.chunk.js.map",
     "index.html": "/janust/index.html",
-    "precache-manifest.2654e971220d2688a4ea52439ac4f27d.js": "/janust/precache-manifest.2654e971220d2688a4ea52439ac4f27d.js",
+    "precache-manifest.9e73d0707cd994d96027cfe6da157d26.js": "/janust/precache-manifest.9e73d0707cd994d96027cfe6da157d26.js",
     "service-worker.js": "/janust/service-worker.js",
-    "static/css/2.e09bffe6.chunk.css.map": "/janust/static/css/2.e09bffe6.chunk.css.map",
-    "static/media/bp_tunnel.jpg": "/janust/static/media/bp_tunnel.b6d7357c.jpg",
-    "static/media/all.min.css": "/janust/static/media/fa-solid-900.c2801fb4.svg"
+    "static/css/2.c491e10e.chunk.css.map": "/janust/static/css/2.c491e10e.chunk.css.map",
+    "static/css/main.ff473632.chunk.css.map": "/janust/static/css/main.ff473632.chunk.css.map",
+    "static/media/amazon_logistics_center.jpg": "/janust/static/media/amazon_logistics_center.3931da9b.jpg",
+    "static/media/all.min.css": "/janust/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/hero.jpg": "/janust/static/media/hero.4c093f7f.jpg",
+    "static/media/image.jpg": "/janust/static/media/image.30909438.jpg",
+    "static/media/image1.jpg": "/janust/static/media/image1.b56b710a.jpg",
+    "static/media/image11.jpg": "/janust/static/media/image11.4c885874.jpg",
+    "static/media/image12.jpg": "/janust/static/media/image12.f3a48e25.jpg",
+    "static/media/image2.jpg": "/janust/static/media/image2.9cebf7ef.jpg",
+    "static/media/image3.jpg": "/janust/static/media/image3.4cd67dee.jpg",
+    "static/media/image4.jpg": "/janust/static/media/image4.2f10c258.jpg",
+    "static/media/image5.jpg": "/janust/static/media/image5.58f57ea4.jpg",
+    "static/media/image6.jpg": "/janust/static/media/image6.3888428a.jpg",
+    "static/media/image7.jpg": "/janust/static/media/image7.775e80f7.jpg",
+    "static/media/image8.jpg": "/janust/static/media/image8.3f92b7eb.jpg",
+    "static/media/image9.jpg": "/janust/static/media/image9.b6d7357c.jpg",
+    "static/media/logo.png": "/janust/static/media/logo.71babcdf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.16a223e4.js",
-    "static/css/2.e09bffe6.chunk.css",
-    "static/js/2.a9e46fc8.chunk.js",
-    "static/js/main.df5847cb.chunk.js"
+    "static/css/2.c491e10e.chunk.css",
+    "static/js/2.a666d506.chunk.js",
+    "static/css/main.ff473632.chunk.css",
+    "static/js/main.51527db0.chunk.js"
   ]
 }
