@@ -6,9 +6,4 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Landing from "views/Lading.js";
 
-ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Landing />
-  </BrowserRouter>,
-  document.getElementById("root")
-);
+ReactDOM.render(<Landing />, document.getElementById("root"));

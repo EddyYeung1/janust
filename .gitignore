@@ -25,3 +25,6 @@ Profile\ Page/react-profile-page/node_modules
 Profile\ Page/react-profile-page/package-lock.json
 Profile\ Page/vuejs-profile-page/node_modules
 Profile\ Page/vuejs-profile-page/package-lock.json
+
+# Local Netlify folder
+.netlify
