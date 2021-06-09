@@ -146,14 +146,11 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                       <i class="fas fa-project-diagram"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">
-                      Project Management
-                    </h6>
+                    <h6 className="text-xl font-semibold">Document Control</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Our people are the key to Janust’s success. Our Project
-                      Managers work closely together with the owner, the
-                      designer, and the contractor to ensure that a high quality
-                      product is delivered on time and within budget.
+                      We use a computerized database system to control and
+                      monitor all documents generated during the course of each
+                      project to provide accurate performance metrics.
                     </p>
                   </div>
                 </div>
@@ -162,7 +159,7 @@ export default function Landing() {
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-500">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-500">
                       <i class="fas fa-file-invoice-dollar"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Cost Estimating</h6>
@@ -176,25 +173,26 @@ export default function Landing() {
               </div>
 
               <div className="flex justify-center flex-wrap">
-                <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+                {/* <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                   <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-gray-500">
                         <i class="fas fa-chart-line"></i>
                       </div>
                       <h6 className="text-xl font-semibold">
-                        Document Control
+                        Project Management
                       </h6>
                       <p className="mt-2 mb-4 text-gray-600">
-                        We use a computerized database system to control and
-                        monitor all documents generated during the course of
-                        each project to provide accurate performance metrics.
+                        Our people are the key to Janust’s success. Our Project
+                        Managers work closely together with the owner, the
+                        designer, and the contractor to ensure that a high
+                        quality product is delivered on time and within budget.
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+                {/* <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                   <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
@@ -208,7 +206,7 @@ export default function Landing() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

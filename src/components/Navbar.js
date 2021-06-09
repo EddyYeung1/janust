@@ -83,7 +83,7 @@ export default function Navbar(props) {
                   href="#contact-us"
                 >
                   <button
-                    className="bg-gray-500 text-white active:bg-gray-600 font-bold uppercase text-xs px-4 py-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-0"
+                    className="bg-gray-500 text-black active:bg-gray-600 font-bold uppercase text-xs px-4 py-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-0"
                     type="button"
                     style={{ transition: "all .15s ease" }}
                   >
