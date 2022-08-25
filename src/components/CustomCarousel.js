@@ -23,7 +23,7 @@ export default function CustomCarousel() {
           <img
             className="d-block w-100"
             src={amazon_logistics_center}
-            alt="Third slide"
+            alt="amazon logistics center"
           />
         </Carousel.Item>
         <Carousel.Item>
