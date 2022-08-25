@@ -17,52 +17,50 @@ import "./carousel.css";
 
 export default function CustomCarousel() {
   return (
-    <>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={amazon_logistics_center}
-            alt="amazon logistics center"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image1} alt="Second slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image2} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image3} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image4} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image5} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image6} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image7} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image8} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image9} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image12} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={image11} alt="Third slide" />
-        </Carousel.Item>
-      </Carousel>
-    </>
+    <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={amazon_logistics_center}
+          alt="amazon logistics center"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image} alt="second slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image1} alt="third slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image2} alt="fourth slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image3} alt="fifth slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image4} alt="sixth slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image5} alt="seventh slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image6} alt="eigth slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image7} alt="ninth slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image8} alt="tenth slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image9} alt="eleventh slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image12} alt="twelth slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image11} alt="thirteen slide" />
+      </Carousel.Item>
+    </Carousel>
   );
 }
