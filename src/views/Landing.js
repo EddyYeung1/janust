@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import HeroSection from "./HeroSection";
 import AboutUsSection from "./AboutUsSection";
 import ServicesOfferedSection from "./ServicesOfferedSection";
+import ProjectsSection from "./ProjectsSection";
 
 export default function Landing() {
   return (
@@ -11,6 +12,7 @@ export default function Landing() {
       <Navbar />
       <main>
         <HeroSection />
+        <ProjectsSection />
         <AboutUsSection />
         <ServicesOfferedSection />
       </main>
